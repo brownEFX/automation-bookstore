@@ -35,7 +35,7 @@
 ## ✍️ Update and Commit to gitHub
     1. Type C:\...\automation-bookstore> git status to confirm status of current branch 
     2. Type C:\...\automation-bookstore> git commit -m initialcommit to commit changes 
-    5. Type C:\...\automation-bookstore> git push origin [branchName e.g. main] to add changes to Repo 
+    5. Type C:\...\automation-bookstore> git push origin [branchName e.g. master] to add changes to Repo 
 ---
 
 ## ✅ Example: Login Functionality
