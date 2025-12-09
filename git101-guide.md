@@ -9,6 +9,17 @@
       5. View files and sub-directory: dir
       6. View directory: ls + enter
       7. View directory with hidden files: ls -a + enter</li>
+---
+## ✍️  Create New Repo
+### 📌 Using gitHub
+    1. Open github
+    2. Select New Repo from the + dropdown menu.
+    3. Enter Repo name, description, select Public and Hit Create Repo
+    
+### 📌  Setup Repo using CLI:
+    1. Create a remote repo: git remote add origin https://github.com/brownEFX/Story.git
+    2. Push local repo to remote repo: git push -u origin master. 
+    3. Refresh repo in github to see your repo. Copy URL</li>
 
 ---
 
@@ -38,6 +49,34 @@
     5. Type C:\...\automation-bookstore> git push origin [branchName e.g. master] to add changes to Repo 
 ---
 
+## ✍️Checkout new branch, Make Changes, push then pull request
+### 📌  git checkout using CLI:
+    1. Type C:\...\automation-bookstore> git checkout -b branchName [e.g. styling]
+        - git checkout -b <branchNm> combines two common Git operations: creating a new branch and switching to it immediately [1]
+        - git checkout command is used to switch the current working directory to a specific point in the project's history (a branch, a commit, or a tag).
+        - -b flag (short for --branch) tells Git to create the new branch named <branchNm> before performing the switch operation.
+
+    2. Type C:\...\automation-bookstore> git checkout develop to switch from the default main branch to the develop branch to start working on new features. 
+    3. Update code
+
+### 📌 Push Changes to gitHub
+    1. Type Ctrl+` to open VSCode Terminal
+    2. Type C:\...\automation-bookstore> git add . to add changes 
+    3. Type C:\...\automation-bookstore> git commit -m commitMessage 
+    4. Type C:\...\automation-bookstore> git push origin branchName(e.g. styling) to push branch to gitHub
+    5. Confirm that the branch is added  in GitHub 
+
+### 📌 pull Request to Merge Changes to Main branch</h2>
+    1. Type Ctrl+` to open VSCode Terminal
+    2. Type C:\...\automation-bookstore> git add . to add changes
+    3. Type C:\...\automation-bookstore> git commit -m styling 
+    4. Type C:\...\automation-bookstore> git push origin branchName(e.g. styling) to push branch to gitHub 
+    5. Confirm that the branch is added  in GitHub 
+
+
+
+
+---
 ## ✅ Example: Login Functionality
 Feature: User Login
 
